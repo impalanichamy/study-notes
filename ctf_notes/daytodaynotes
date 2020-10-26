@@ -1,1 +1,18 @@
 
+Day-1 -- syskron ctf
+
+sql command for find if multiple users use the same password
+
+select password,count(password) from personal group by password having count(password)>1;
+
+
+
+jsfiddle.net -- to run js,html and other codes
+
+python code for b64 decode
+python -c 'from base64 import b64decode as decode; print(decode("c3lza3JvbkNURnt0SGV5LXN0MGxlLWFsbC1EYXRhISF9"))'
+
+
+$ fcrackzip -u -D -p ./rockyou.txt ./licenses.zip  ---to crack a zip file
+
+****************************************************************************************************************************8
